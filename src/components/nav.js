@@ -66,7 +66,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--blue);
       width: 42px;
       height: 42px;
       position: relative;
@@ -135,7 +135,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--blue);
           font-size: var(--fz-xxs);
           text-align: right;
         }
@@ -216,7 +216,7 @@ const Nav = ({ isHome }) => {
       <StyledNav>
         {prefersReducedMotion ? (
           <>
-            {Logo}
+            {/* {Logo} */}
 
             <StyledLinks>
               <ol>
@@ -249,7 +249,7 @@ const Nav = ({ isHome }) => {
                     navLinks &&
                     navLinks.map(({ url, name }, i) => (
                       <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
-                        <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
+                        <li>
                           <Link to={url}>{name}</Link>
                         </li>
                       </CSSTransition>

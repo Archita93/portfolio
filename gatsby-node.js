@@ -1,17 +1,6 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require('path');
-const _ = require('lodash');
 
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage } = actions;
-  const postTemplate = path.resolve(`src/templates/post.js`);
-  const tagTemplate = path.resolve('src/templates/tag.js');
-
+exports.createPages = async ({ graphql, reporter }) => {
   const result = await graphql(`
     {
       postsRemark: allMarkdownRemark(
@@ -41,34 +30,32 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  // Create post detail pages
-  const posts = result.data.postsRemark.edges;
+  // Create post detail pages (Removed)
 
-  posts.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.slug,
-      component: postTemplate,
-      context: {},
-    });
-  });
+  // Remove the following code to stop creating post pages
+  // posts.forEach(({ node }) => {
+  //   createPage({
+  //     path: node.frontmatter.slug,
+  //     component: postTemplate,
+  //     context: {},
+  //   });
+  // });
 
-  // Extract tag data from query
-  const tags = result.data.tagsGroup.group;
-  // Make tag pages
-  tags.forEach(tag => {
-    createPage({
-      path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
-      component: tagTemplate,
-      context: {
-        tag: tag.fieldValue,
-      },
-    });
-  });
+  // Extract tag data from query (Removed)
+  // Remove the following code to stop creating tag pages
+  // tags.forEach(tag => {
+  //   createPage({
+  //     path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
+  //     component: tagTemplate,
+  //     context: {
+  //       tag: tag.fieldValue,
+  //     },
+  //   });
+  // });
 };
 
-// https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
+// Webpack configuration remains unchanged
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
   if (stage === 'build-html' || stage === 'develop-html') {
     actions.setWebpackConfig({
       module: {

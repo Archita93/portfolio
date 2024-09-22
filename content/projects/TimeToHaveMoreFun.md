@@ -1,14 +1,14 @@
 ---
-date: '2020-01-10'
-title: 'Time to Have More Fun'
-github: 'https://github.com/bchiang7/time-to-have-more-fun'
-external: 'https://time-to-have-more-fun.now.sh/'
+date: '2004-01-10'
+title: 'Women’s Access to Healthcare and its Effects'
+github: 'https://github.com/Archita93/WHO_maternity'
+external: ''
 tech:
-  - Next.js
-  - Tailwind CSS
-  - Firebase
+  - numpy
+  - matplotlib
+  - pandas
+  - python
 company: ''
-showInProjects: true
 ---
 
-A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS
+Conducted EDA on WHO's global datasets, establishing a strong correlation between pregnant women’s access to maternal resources & infants’ health outcomes in 1,850 countries, areas & territories

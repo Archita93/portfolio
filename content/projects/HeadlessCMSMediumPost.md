@@ -1,15 +1,14 @@
 ---
 date: '2019-11-12'
-title: 'Building a Headless Mobile App CMS From Scratch'
-github: ''
-external: 'https://medium.com/stories-from-upstatement/building-a-headless-mobile-app-cms-from-scratch-bab2d17744d9'
+title: 'Yelp Database System'
+github: 'https://github.com/Archita93/Yelp-Database'
+external: ''
 tech:
-  - Node
-  - Express
-  - Firebase
-  - Vue
+  - python
+  - tkinter
+  - sql
 company: 'Upstatement'
 showInProjects: true
 ---
 
-Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement
+Created an efficient database system for Yelp, incorporating over 6 functionalities, and leveraging Python libraries like Tkinter for the GUI & pymssql to establish a connection with SFU's MS SQL in the CSIL systems.

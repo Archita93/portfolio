@@ -13,7 +13,7 @@ const StyledAboutSection = styled.section`
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: block;
     }
   }
@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--blue);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -48,11 +48,11 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 500px; // Set a maximum width for the image container
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
-    width: 70%;
+    width: 80%; // Adjust the size for smaller screens
   }
 
   .wrapper {
@@ -61,7 +61,6 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
 
     &:hover,
     &:focus {
@@ -81,34 +80,16 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      // Removed background and border for a clean image look
+      filter: none;
+      width: 100%; // This will make the image fill the width of the container
       transition: var(--transition);
     }
 
     &:before,
     &:after {
       content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: var(--border-radius);
-      transition: var(--transition);
-    }
-
-    &:before {
-      top: 0;
-      left: 0;
-      background-color: var(--navy);
-      mix-blend-mode: screen;
-    }
-
-    &:after {
-      border: 2px solid var(--green);
-      top: 14px;
-      left: 14px;
-      z-index: -1;
+      display: none; // Hide the pseudo-elements to remove the background effect
     }
   }
 `;
@@ -125,7 +106,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'SciKit-Learn',
+    'Pandas',
+    'PyTorch',
+    'TensorFlow',
+    'ChromaDB',
+    'MongoDB',
+    'SQL',
+    'R',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +126,41 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Archita, and I’m passionate about creating impactful projects in the
+              fields of Machine Learning and Artificial Intelligence. From a very young age, I had
+              always been fascinated by robots but couldn't really explain it. So, in Grade 12,
+              while deciding on a major, I took a Coursera course on Big Data, AI, and Ethics, which
+              sparked an interest in Machine Learning. This led me to pursue a degree in Computing
+              Science with a concentration in AI/ML. Now, I’m eager to keep learning and hope to
+              eventually pursue a PhD in an area where AI/ML can be used in healthcare, or more
+              specifically Precision Medicine,
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
+              Throughout my academic career, I’ve had the privilege of working{' '}
+              <a href="https://www.rbcroyalbank.com/personal.html/">
+                Generative AI Innovation lab of a Canadian Bank
+              </a>
+              , <a href="https://vectorinstitute.ai/">an AI research institute</a>, and a few
+              research labs at <a href="https://www.sfu.ca/">Simon Fraser University</a> and{' '}
+              <a href="https://datascienceandhealth.ubc.ca/">University of British Columbia. </a>
+              {/* <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              clients. */}
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              In university, I have been an active part of the{' '}
+              <a href="https://www.sfuaxisconsulting.com/">Axis Consulting</a>,
+              <a href="https://www.sfu.ca/computing/wics//">
+                Women in Computing Science Club (WICS)
+              </a>
+              ,
+              <a href="https://gdsc.community.dev/simon-fraser-university-burnaby-canada/">
+                Google Developer Students Club (GDSC)
+              </a>
+              , and <a href="https://sfucsss.org/">Computing Science Student Society (CSSS)</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

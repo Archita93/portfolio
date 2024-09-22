@@ -117,7 +117,7 @@ const StyledProject = styled.li`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--green);
+    color: var(--light-slate);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
@@ -234,10 +234,10 @@ const StyledProject = styled.li`
       }
     }
 
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
-    }
+    // .cta {
+    //   ${({ theme }) => theme.mixins.smallButton};
+    //   margin: 10px;
+    // }
   }
 
   .project-image {
@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: var(--dark-slate);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -282,22 +282,22 @@ const StyledProject = styled.li`
         right: 0;
         bottom: 0;
         z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
+        // transition: var(--transition);
+        // background-color: var(--navy);
         mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      // mix-blend-mode: multiply;
+      // filter: grayscale(100%) contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        // filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
   }
@@ -314,15 +314,9 @@ const Featured = () => {
           node {
             frontmatter {
               title
-              cover {
-                childImageSharp {
-                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
-                }
-              }
               tech
               github
               external
-              cta
             }
             html
           }
@@ -347,9 +341,9 @@ const Featured = () => {
 
   return (
     <section id="projects">
-      <h2 className="numbered-heading" ref={revealTitle}>
+      {/* <h2 className="numbered-heading" ref={revealTitle}>
         Some Things I’ve Built
-      </h2>
+      </h2> */}
 
       <StyledProjectsGrid>
         {featuredProjects &&
@@ -415,3 +409,8 @@ const Featured = () => {
 };
 
 export default Featured;
+
+// cover {
+//   childImageSharp {
+//     gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+//   }

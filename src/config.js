@@ -1,27 +1,27 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'srivastvaarchita2001@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Archita93',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/bchiang7',
+    // },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/bchiang7',
+    // },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/Archita7',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: 'https://codepen.io/bchiang7',
+    // },
   ],
 
   navLinks: [
@@ -49,11 +49,11 @@ module.exports = {
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 200, viewFactor = 0.25) => ({
+  srConfig: (viewFactor = 0.25) => ({
     origin: 'bottom',
     distance: '20px',
-    duration: 500,
-    delay,
+    duration: 50,
+    // delay,
     rotate: { x: 0, y: 0, z: 0 },
     opacity: 0,
     scale: 1,

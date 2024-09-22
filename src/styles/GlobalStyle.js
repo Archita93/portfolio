@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import fonts from './fonts';
 import variables from './variables';
-import TransitionStyles from './TransitionStyles';
-import PrismStyles from './PrismStyles';
+// import TransitionStyles from './TransitionStyles';
+// import PrismStyles from './PrismStyles';
 
 const GlobalStyle = createGlobalStyle`
   ${fonts};
@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--blue);
     outline-offset: 3px;
   }
 
@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--blue);
     outline-offset: 3px;
   }
 
@@ -97,7 +97,7 @@ const GlobalStyle = createGlobalStyle`
 
       #content > * {
         filter: blur(5px) brightness(0.7);
-        transition: var(--transition);
+        // transition: var(--transition);
         pointer-events: none;
         user-select: none;
       }
@@ -194,7 +194,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--blue);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -257,11 +257,11 @@ const GlobalStyle = createGlobalStyle`
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
-    transition: var(--transition);
+    // transition: var(--transition);
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--blue);
     }
 
     &.inline-link {
@@ -325,14 +325,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--green);
+          color: var(--blue);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--green);
+    border-left-color: var(--blue);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -372,7 +372,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: var(--green);
+      background-color: var(--blue);
       color: var(--navy);
       top: 0;
       left: 0;
@@ -386,18 +386,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--green);
+    color: var(--light-slate);
   }
 
   .overline {
-    color: var(--green);
+    color: var(--blue);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--green);
+    color: var(--blue);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -420,7 +420,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--green);
+    color: var(--blue);
 
     .arrow {
       display: block;
@@ -443,9 +443,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
-  ${TransitionStyles};
-
-  ${PrismStyles};
 `;
 
 export default GlobalStyle;
