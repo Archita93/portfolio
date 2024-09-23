@@ -10,9 +10,9 @@ range: 'May 2023 - April 2024'
 **Machine Learning Researcher @ Let’s Solve it Program, Borealis AI**  
 _March 2024 - April 2024_
 
-- Developed an image-to-text model leveraging BLIP and Vision Transformer (ViT) architectures, achieving a significant improvement in diagnostic accuracy for chest X-ray images, with model evaluations demonstrating a 10% increase in report accuracy compared to existing methods
-- Utilized the MIMIC-CXR dataset from PhysioNet, encompassing over 400 thousand chest X-ray images and associated radiology reports, to train and validate the model, ensuring comprehensive coverage and robust performance
-- Streamlined the diagnostic process, reducing the time required for generating radiology reports by 99%, thereby enhancing the speed and efficiency of radiological assessments, particularly benefiting rural areas with limited healthcare access
+- Engineered a cutting-edge image-to-text model using BLIP and Vision Transformer (ViT) that processes chest X-rays in 3 seconds, achieving a 99% reduction in report generation time and significantly enhancing healthcare accessibility in rural areas
+- Utilized the MIMIC-CXR dataset (400,000+ chest X-rays) to train and validate the model, ensuring robust performance and comprehensive coverage of radiological conditions
+- Achieved state-of-the-art performance metrics, including 86.27% BERT Precision, 85.74% Cosine Similarity, and 63.74% METEOR score, demonstrating the model's high accuracy and reliability in medical image analysis
 
 &nbsp; <!-- This adds a blank line -->
 

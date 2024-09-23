@@ -10,9 +10,10 @@ url: 'https://vectorinstitute.ai/'
 **Applied AI Intern**  
 _January - April 2024_
 
-- Managed and operated 3 AI projects focused on streamlining the development, deployment, and scaling of AI applications for industry sponsors, resulting in a 35% increase in project efficiency
-- Fine-tuned Natural Language Processing (NLP) models to predict hospital readmission rates, achieving a 20% improvement in prediction accuracy, which aims to optimize resource allocation and enhance patient care outcomes
-- Developed a multi-modal model using MIMIC-4 healthcare data for comprehensive fairness analysis, accounting for age, gender, and race, which contributed to more equitable healthcare outcomes and was showcased in an oral presentation at the CAHSPR Conference
+- Led 3 industry-sponsored AI projects, streamlining development and deployment processes, resulting in a 35% boost in project efficiency and accelerated time-to-market
+- Spearheaded a research project that fine-tuned Clinical-BERT and classical ML models to predict ICU readmissions on a stratified sample of 15,000 patients in the MIMIC-III dataset
+- Implemented advanced fairness evaluation metrics, including Predicted Positive Rate (PPR) Disparity, uncovering significant disparities in ML model predictions across racial groups
+- Presented findings at the CAHSPR Conference, highlighting the importance of fairness in AI-driven healthcare solutions and proposing strategies for more equitable patient care outcomes
 
 &nbsp; <!-- This adds a blank line -->
 

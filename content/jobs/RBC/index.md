@@ -10,8 +10,8 @@ url: 'https://www.rbc.com/about-rbc.html'
 **Machine Learning Engineer Co-op**  
 _September - December 2024_
 
-- Prototyped novel workflows and proof of concepts for Agentic systems like Crew AI in an Agile lab environment, delivering bi-weekly code updates and automation deployments
-- Conducted hands-on research within the Generative AI space, providing actionable recommendations for new tools and frameworks, leading to the enhancement in addressing business use cases
+- Prototyped workflows and proof of concepts leveraging Agentic systems such as Crew AI in an Agile environment
+- Conducted hands-on research within the Generative AI space, providing recommendations for new tools and frameworks, addressing business use cases
 
 &nbsp; <!-- This adds a blank line -->
 
@@ -28,9 +28,10 @@ url: 'https://www.rbc.com/about-rbc.html'
 **Data Engineer - RBC Amplify**  
 _May - August 2024_
 
-- Collaborated with a cross-functional team of 4 students to tackle a key business challenge within the RBC Amplify Program, which included 72 participants from across Canada, achieving significant impact and recognition
-- Developed Aria By Avion, an MVP that boosted user engagement in RBC's Avion Rewards loyalty program by 20% through the integration of Generative AI and Search Technology, resulting in personalized offer recommendations and a tailored search experience driven by semantic search
-- Implemented web scraping algorithms and Retrieval-Augmented Generation (RAG), enhancing merchant data by 167% and optimizing database design with ChromaDB, a vector database, which improved data retrieval speed and accuracy by 50%
+- Collaborated with a cross-functional team of 4 students to develop Aria By Avion, a Gen AI-driven MVP for RBC's Avion Rewards program, leveraging semantic search and LightFM hybrid recommender system to boost user engagement by 20%
+- Architected a personalized offer recommendation engine using advanced machine learning techniques, enhancing the user experience and driving loyalty program participation
+- Engineered a high-performance data pipeline utilizing Generative AI for web scraping, resulting in a 167% increase in merchant data points, and implementing Retrieval-Augmented Generation (RAG) with ChromaDB
+- Optimized database architecture and query performance, resulting in a 50% improvement in data retrieval speed and accuracy, enhancing overall system efficiency
 
   &nbsp; <!-- This adds a blank line -->
 
