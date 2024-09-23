@@ -10,21 +10,18 @@ range: 'May 2023 - April 2024'
 **Machine Learning Researcher @ Let’s Solve it Program, Borealis AI**  
 _March 2024 - April 2024_
 
-- Developed image-to-text model using BLIP and ViT for chest X-ray diagnosis
-- Achieved 10% improvement in report accuracy over existing methods
-- Utilized MIMIC-CXR dataset (400k+ images and reports) for training/validation
-- Reduced radiology report generation time by 99%
-- Enhanced diagnostic efficiency, benefiting areas with limited healthcare access
+- Developed an image-to-text model leveraging BLIP and Vision Transformer (ViT) architectures, achieving a significant improvement in diagnostic accuracy for chest X-ray images, with model evaluations demonstrating a 10% increase in report accuracy compared to existing methods
+- Utilized the MIMIC-CXR dataset from PhysioNet, encompassing over 400 thousand chest X-ray images and associated radiology reports, to train and validate the model, ensuring comprehensive coverage and robust performance
+- Streamlined the diagnostic process, reducing the time required for generating radiology reports by 99%, thereby enhancing the speed and efficiency of radiological assessments, particularly benefiting rural areas with limited healthcare access
 
 &nbsp; <!-- This adds a blank line -->
 
 **Machine Learning Fellow @ AI4Good Lab**  
 _May 2023 - June 2023_
 
-- Led 5-member cross-functional team
-- Developed ML prototype for sustainable AI decision-making
-- Contributed to ethical and responsible AI practices
-- Communicated technical details to 100+ non-technical audience
-- Enhanced project impact among diverse stakeholders
+- Led a 5-member cross-functional team to develop a machine learning prototype that empowers AI leaders in making more
+  sustainable decisions, contributing to ethical and responsible AI practices.
+- Effectively communicated technical details to a non-technical audience of over 100 people, enhancing project impact among
+  diverse stakeholders.
 
 &nbsp; <!-- This adds a blank line -->

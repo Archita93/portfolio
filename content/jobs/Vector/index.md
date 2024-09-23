@@ -10,13 +10,9 @@ url: 'https://vectorinstitute.ai/'
 **Applied AI Intern**  
 _January - April 2024_
 
-- Managed 3 AI projects, increasing project efficiency by 35%
-- Streamlined development, deployment, and scaling of AI applications
-- Fine-tuned NLP models to predict hospital readmission rates
-- Improved prediction accuracy by 20% for healthcare resource optimization
-- Developed multi-modal model using MIMIC-4 data for fairness analysis
-- Analyzed healthcare equity across age, gender, and race
-- Presented findings at CAHSPR Conference
+- Managed and operated 3 AI projects focused on streamlining the development, deployment, and scaling of AI applications for industry sponsors, resulting in a 35% increase in project efficiency
+- Fine-tuned Natural Language Processing (NLP) models to predict hospital readmission rates, achieving a 20% improvement in prediction accuracy, which aims to optimize resource allocation and enhance patient care outcomes
+- Developed a multi-modal model using MIMIC-4 healthcare data for comprehensive fairness analysis, accounting for age, gender, and race, which contributed to more equitable healthcare outcomes and was showcased in an oral presentation at the CAHSPR Conference
 
 &nbsp; <!-- This adds a blank line -->
 
@@ -33,11 +29,8 @@ url: 'https://www.rbc.com/about-rbc.html'
 **Business Analyst**  
 _October - December 2023_
 
-- Conducted global AI institution research to refine vision, mission, and strategy
-- Employed RAG models for research and established evaluation framework
-- Improved work efficiency by 15% and enhanced assessment accuracy
-- Synthesized research into comprehensive report and presentation
-- Reduced stakeholder insight assimilation time by 75%
-- Enhanced decision-making speed and effectiveness
+- Conducted extensive research on global AI institutions to refine the institute’s vision, mission, and strategy, leading to a clearer strategic direction and alignment with industry best practices.
+- Employed Retrieval-Augmented Generation (RAG) models for research and established a standardized evaluation framework, resulting in a 15% improvement in work efficiency and a more accurate assessment of institutional strengths and weaknesses.
+- Synthesized detailed research into a comprehensive report and presentation, achieving a 75% reduction in the time required for stakeholders to assimilate strategic insights and recommendations, thereby enhancing decision-making speed and effectiveness.
 
 &nbsp; <!-- This adds a blank line -->

@@ -65,8 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a student at Simon Fraser University studying Computer Science and specializing in AI/ML
-        Currently, I’m working as a Machine Learning Engineer at the RBC Gen AI Innovation Lab.
+        I’m a student at Simon Fraser University studying Computer Science with a concentration in
+        AI/ML and a minor in Statistics. Currently, I’m working as a Machine Learning Engineer at
+        the RBC Gen AI Innovation Lab.
       </p>
     </>
   );

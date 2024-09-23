@@ -126,24 +126,30 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Archita, and I’m passionate about creating impactful projects in the
-              fields of Machine Learning and Artificial Intelligence. From a very young age, I had
-              always been fascinated by robots but couldn't really explain it. So, in Grade 12,
-              while deciding on a major, I took a Coursera course on Big Data, AI, and Ethics, which
-              sparked an interest in Machine Learning. This led me to pursue a degree in Computing
-              Science with a concentration in AI/ML. Now, I’m eager to keep learning and hope to
-              eventually pursue a PhD in an area where AI/ML can be used in healthcare, or more
-              specifically Precision Medicine,
+              Hello Viewers! Welcome to my website. As you know, my name is Archita. From a very
+              young age, I was captivated by the world of robotics, though I couldn't fully
+              articulate my fascination at the time. As I grew older, I started developing an
+              interest in mathematics. However, when I was comtemplating my university major, I
+              enrolled in a Coursera course on Big Data, AI, and Ethics which ignited an interest in
+              learning about Machine Learning, leading me to pursue a degree in Computing Science
+              with a concentration in AI/ML. Ever since then, my academic journey has only
+              intensified my enthusiasm for creating impactful projects in the field of Machine
+              Learning and Artificial Intelligence. As I continue to expand my knowledge and skills,
+              I remain eager to explore new challenges and opportunities in the AI/ML space. My
+              ultimate goal, however, is to pursue a PhD focused on applying AI/ML to healthcare,
+              with a specific interest in Precision Medicine.
             </p>
 
             <p>
-              Throughout my academic career, I’ve had the privilege of working{' '}
+              Previously, I’ve had the privilege of working at the
               <a href="https://www.rbcroyalbank.com/personal.html/">
-                Generative AI Innovation lab of a Canadian Bank
+                Generative AI Innovation lab at a Canadian Bank,
+              </a>{' '}
+              <a href="https://vectorinstitute.ai/">an AI research institute</a>, and a few research
+              labs at <a href="https://www.sfu.ca/"> the Simon Fraser University</a> and{' '}
+              <a href="https://datascienceandhealth.ubc.ca/">
+                the University of British Columbia.{' '}
               </a>
-              , <a href="https://vectorinstitute.ai/">an AI research institute</a>, and a few
-              research labs at <a href="https://www.sfu.ca/">Simon Fraser University</a> and{' '}
-              <a href="https://datascienceandhealth.ubc.ca/">University of British Columbia. </a>
               {/* <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
@@ -151,7 +157,7 @@ const About = () => {
             </p>
 
             <p>
-              In university, I have been an active part of the{' '}
+              While in university, I have been actively participating in clubs such as SFU{' '}
               <a href="https://www.sfuaxisconsulting.com/">Axis Consulting</a>,
               <a href="https://www.sfu.ca/computing/wics//">
                 Women in Computing Science Club (WICS)
